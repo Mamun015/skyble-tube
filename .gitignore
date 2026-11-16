@@ -1,0 +1,12 @@
+build/
+out/
+bin/
+sdk/
+.gradle/
+*.apk
+*.idsig
+*.apk.idsig
+.DS_Store
+*.iml
+.idea/
+.vscode/

@@ -1,0 +1,53 @@
+Skyble Tube
+Copyright (c) 2026 Mamun
+https://github.com/Mamun015/skyble-tube
+
+Skyble Tube is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the
+Free Software Foundation, either version 3 of the License, or (at your
+option) any later version.
+
+Skyble Tube is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details.
+
+The full licence text is in the LICENSE file next to this notice, and
+at https://www.gnu.org/licenses/gpl-3.0.txt.
+
+Because this app links NewPipeExtractor, the app as distributed is
+licensed GPL-3.0-or-later. The corresponding source code of this app is
+available in the Skyble browser repository:
+
+    https://github.com/Mamun015/skyble-browser
+
+
+Bundled component: NewPipeExtractor
+-----------------------------------
+
+Copyright (C) 2015 Christian Schabesberger and the NewPipe e.V.
+contributors.
+
+NewPipeExtractor is free software, licensed under the GNU General
+Public License, version 3 or (at your option) any later version.
+
+    https://github.com/TeamNewPipe/NewPipeExtractor
+
+Bundled with it, unmodified, under their own licences:
+jsoup (MIT), Rhino (MPL-2.0), JSR-305 (Apache-2.0) and
+nanojson (Apache-2.0, TeamNewPipe fork).
+
+Core library desugaring uses Google's desugar_jdk_libs (GPL-2.0 with
+the Classpath Exception), packaged into the app as
+desugar_jdk_libs-2.0.4.jar.
+
+
+Trademark
+---------
+
+The name "NewPipe", the NewPipe logo and the NewPipe icon belong to the
+NewPipe e.V. This app does not use any of them: it is named Skyble Tube,
+it has its own icon, and it does not claim to be an official NewPipe
+product or to be endorsed by the NewPipe project. See NewPipe's
+trademark policy at https://github.com/TeamNewPipe/NewPipeExtractor
+for the exact terms.
