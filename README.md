@@ -14,9 +14,10 @@ saved to the public Downloads folder and are not reported to Skyble Browser.
   picture and audio tracks with MediaMuxer into one MP4
 - Saves to the public Downloads folder
 
-## Requirements
+## Install
 
-Android 5.0 or newer (API 21+).
+Download the APK from the [latest release](https://github.com/Mamun015/skyble-tube/releases/latest/download/SkybleTube.apk)
+and open it on the phone. Android 5.0 or newer (API 21+).
 
 ## Build
 
@@ -67,9 +68,3 @@ e.V. contributors). Bundled unmodified: jsoup (MIT), Rhino (MPL-2.0), JSR-305
 (Apache-2.0), nanojson (Apache-2.0, TeamNewPipe fork) and desugar_jdk_libs 2.0.4
 (GPL-2.0 with Classpath Exception). Copyright line: "Skyble Tube / Copyright (c)
 2026 Mamun". License text is in `LICENSE`.
-
-## Not affiliated
-
-This app is not named NewPipe, uses no NewPipe name or logo, and is not endorsed
-by the NewPipe project or by YouTube or Google. It has only been tested by its
-author on a phone; YouTube changes often break formats.
