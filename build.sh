@@ -22,7 +22,6 @@ fi
 
 OUT="$PWD/build"
 NAME="SkybleTube-1.2.apk"
-KS="$PWD/keystore.jks"
 
 LIBS="$PWD/libs"
 # NewPipeExtractor and what it needs at runtime
@@ -82,13 +81,11 @@ fi
 zipalign -f -p 4 "$OUT/unsigned.apk" "$OUT/aligned.apk"
 
 echo "==> 6/7 sign"
-if [ ! -f "$KS" ]; then
-  echo "keystore not found: $KS" >&2
-  exit 1
+if [ "${UNSIGNED:-0}" = "1" ]; then
+  echo "unsigned build: $OUT/aligned.apk"
+  exit 0
 fi
-apksigner sign --ks "$KS" --ks-pass pass:bangla123 --key-pass pass:bangla123 \
-  --v1-signing-enabled true --v2-signing-enabled true \
-  --out "$NAME" "$OUT/aligned.apk"
+bash sign.sh "$OUT/aligned.apk" "$NAME"
 
 echo "==> 7/7 verify"
 apksigner verify --print-certs "$NAME" | head -5

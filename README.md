@@ -43,7 +43,10 @@ D8 is given `--desugared-lib`, L8 dexes the j$ runtime from
 `libs/desugar_jdk_libs-2.0.4.jar`, and the APK ships `classes.dex` plus
 `classes2.dex`.
 
-Java only. Signing uses `keystore.jks` (alias `bangla`).
+Java only. Signing uses the key chain read by `sign.sh`: set
+`SKYBLE_SIGNING_DIR` (default `$HOME/Keystores/skyble`) or build with
+`UNSIGNED=1`. The chain holds the previous key for Android 5–8, the current key
+for Android 9+, and the lineage between them.
 
 ## How other apps call it
 

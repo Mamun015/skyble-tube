@@ -6,6 +6,8 @@ sdk/
 *.apk
 *.idsig
 *.apk.idsig
+*.jks
+keystore.jks
 .DS_Store
 *.iml
 .idea/
